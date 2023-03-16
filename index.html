@@ -1068,9 +1068,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           });
       });
 </script>
-<script>
-dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-dataLayer.push({
+						
+   <div>This is where the add to cart would go</div>
+    <button id="add_to_cart">Add to Cart</button>
+         <script>
+         dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+        dataLayer.push({
 	    event: "add_to_wishlist", 
 	ecommerce: {
   currency: "USD",
@@ -1098,8 +1101,10 @@ dataLayer.push({
     }
 	}
   });
-    </script>
+	      </script>
+						
       
 </body>
+						
 
 </html>
