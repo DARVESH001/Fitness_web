@@ -74,15 +74,15 @@ window.dataLayer = window.dataLayer || [];
 window.dataLayer.push(
 {
   event : 'purchase_item',
-        ecommerce:
+        ecommerce:[
 	{
-		    transaction_id: "T_12345_2",
+		transaction_id: "T_12345_2",
                 value: 25.42,
                 tax: 4.90,
                 shipping: 5.99,
                 currency: "USD",
-                coupon: "SUMMER_SALE",
-                items:[{
+                coupon: "SUMMER_SALE"},
+                {
             		item_name:"Web Analytics",
             		item_id:"Course_001",
             		item_cat:"Online Courses"
@@ -114,9 +114,7 @@ window.dataLayer.push(
 			item_list_id: "apparel",
       			item_list_name: "Related Products",
       			item_variant: "pink",
-		       }
-		       ]
-	}
+		       }]
 });
 </script>
 </head>
